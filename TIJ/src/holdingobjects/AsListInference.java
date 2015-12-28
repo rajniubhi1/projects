@@ -1,6 +1,9 @@
 package holdingobjects;
 import java.util.*;
-
+/** 
+*	author Rajni
+*
+**/
 class Snow {
 	public String toString() {
 		return "Snow";
