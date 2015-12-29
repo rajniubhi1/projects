@@ -23,11 +23,22 @@ public abstract class Duck {
 	}
 
 	public void performFly() {
-		flyBehaviour.fly();
+		if(flyBehaviour != null) {
+			flyBehaviour.fly();
+		} else {
+			System.out.println("Please initialize the data properly ");
+			return;
+		}
+		
 	}
 
 	public void performQuack() {
-		quackBehaviour.quack();
+		if(quackBehaviour != null) {
+			quackBehaviour.quack();
+		} else {
+			System.out.println("Please initialize the data properly ");
+			return;
+		}
 	}
 	
 	public abstract void display();
