@@ -216,7 +216,7 @@
 								<a href="#" class="btn btn-default btn-flat">Profile</a>
 							</div>
 							<div class="pull-right">
-								<a href="custom_login?logout" class="btn btn-default btn-flat">Sign out</a>
+								<a href="custom_logout" class="btn btn-default btn-flat">Sign out</a>
 							</div>
 						</li>
 					</ul></li>
